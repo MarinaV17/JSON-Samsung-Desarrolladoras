@@ -1,0 +1,34 @@
+<supermercados>
+	<supermercado>
+	  <nombre>Mercadona</nombre>
+	  <direccion>Calle Alcalá 1</direccion>
+	  <geolocalizacion>
+		<latitud>40.123456</latitud>
+		<longitud>-3.789012</longitud>
+	  </geolocalizacion>
+	  <productos>
+		<producto>
+		  <nombre>Leche desnatada</nombre>
+		  <marca>Asturiana</marca>
+		  <oferta>true</oferta>
+		  <periodo_vigencia>2023-06-01 al 2023-06-15</periodo_vigencia>
+		  <habitual_sin_oferta>false</habitual_sin_oferta>
+		  <unidades>1</unidades>
+		  <unidad_medida>litro</unidad_medida>
+		  <precio>1.50</precio>
+		  <adquirido>true</adquirido>
+		</producto>
+		<producto>
+		  <nombre>Barra Pan</nombre>
+		  <marca>Hacendado</marca>
+		  <oferta>false</oferta>
+		  <periodo_vigencia/>
+		  <habitual_sin_oferta>true</habitual_sin_oferta>
+		  <unidades>2</unidades>
+		  <unidad_medida>unidad</unidad_medida>
+		  <precio>0.80</precio>
+		  <adquirido>false</adquirido>
+		</producto>
+	   </productos>
+	</supermercado>
+</supermercados>

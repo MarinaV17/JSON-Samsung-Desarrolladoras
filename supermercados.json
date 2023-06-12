@@ -1,0 +1,64 @@
+{
+  "supermercados": [
+    {
+      "nombre": "Mercadona",
+      "direccion": "Calle Alcalá 1",
+      "geolocalizacion": {
+        "latitud": 40.123456,
+        "longitud": -3.789012
+      },
+      "productos": [
+        {
+          "nombre": "Leche desnatada",
+		  "marca": "Asturiana",
+          "oferta": true,
+          "periodo_vigencia": "2023-06-01 al 2023-06-15",
+          "unidades": 1,
+          "unidad_medida": "litro",
+          "precio": 1.50,
+          "adquirido": true
+        },
+        {
+          "nombre": "Barra Pan",
+		  "marca": "Hacendado",
+          "oferta": false,
+          "periodo_vigencia": null,
+          "unidades": 2,
+          "unidad_medida": "unidad",
+          "precio": 0.80,
+          "adquirido": false
+        }
+      ]
+    },
+    {
+      "nombre": "Aldi",
+      "direccion": "Avenida de América 6",
+      "geolocalizacion": {
+        "latitud": 40.987654,
+        "longitud": -3.210987
+      },
+      "productos": [
+        {
+          "nombre": "Manzana Royal",
+		  "marca": "Gonzalez S.L",
+          "oferta": true,
+          "periodo_vigencia": "2023-06-05 al 2023-06-10",
+          "unidades": 4,
+          "unidad_medida": "kg",
+          "precio": 2.99,
+          "adquirido": false
+        },
+        {
+          "nombre": "Plátano canario",
+		  "marca": "Plátano de Canarias",
+          "oferta": false,
+          "periodo_vigencia": null,
+          "unidades": 1,
+          "unidad_medida": "kg",
+          "precio": 1.20,
+          "adquirido": false
+        }
+      ]
+    }
+  ]
+}
